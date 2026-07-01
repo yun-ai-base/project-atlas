@@ -332,6 +332,18 @@ const PROJECTS_DATA = {
       "type": "file",
       "path": "/悟通的道理-知乎回答精选.html",
       "github": "https://github.com/yun-ai-base/ai-chat-room"
+    },
+    {
+      "id": "video-downloader",
+      "name": "视频下载器",
+      "description": "多平台视频/图片下载工具，支持抖音/快手/小红书解析下载，图片批量勾选，Node.js + Puppeteer",
+      "date": "2026-07",
+      "tags": ["下载", "抖音", "小红书", "Node.js", "Puppeteer"],
+      "category": "tool",
+      "type": "folder",
+      "path": "/video-downloader",
+      "entry": "server.js",
+      "github": "https://github.com/yun-ai-base/video-downloader"
     }
   ]
 };
