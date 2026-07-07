@@ -2,7 +2,7 @@ const PROJECTS_DATA = {
   "meta": {
     "title": "项目总览 · Project Atlas",
     "description": "All projects developed by yun",
-    "updated": "2026-06-30"
+    "updated": "2026-07-07"
   },
   "categories": [
     { "id": "ai-agent", "label": "AI / Agent" },
@@ -344,6 +344,58 @@ const PROJECTS_DATA = {
       "path": "/video-downloader",
       "entry": "server.js",
       "github": "https://github.com/yun-ai-base/video-downloader"
+    },
+    {
+      "id": "sciomap",
+      "name": "科学星图",
+      "description": "121位科学家思想与贡献可视化，D3.js力导向图，支持学科筛选、详情面板含代表作/现代影响/时间线/同时代人/师承树",
+      "date": "2026-07",
+      "tags": ["可视化", "科学", "D3.js", "知识图谱"],
+      "category": "visualization",
+      "type": "folder",
+      "path": "/sciomap",
+      "entry": "index.html",
+      "github": "https://github.com/yun-ai-base/sciomap",
+      "homepage": "https://yun-ai-base.github.io/sciomap/"
+    },
+    {
+      "id": "philomap",
+      "name": "脉络 Philomap",
+      "description": "人类思想星图 — 哲学家可视化探索，支持思想星图/时光长河/哲学光谱/对决/基因测试/孪生宇宙多视图",
+      "date": "2026-07",
+      "tags": ["可视化", "哲学", "D3.js", "知识图谱"],
+      "category": "visualization",
+      "type": "folder",
+      "path": "/philomap",
+      "entry": "index.html",
+      "github": "https://github.com/yun-ai-base/philomap",
+      "homepage": "https://yun-ai-base.github.io/philomap/"
+    },
+    {
+      "id": "tool-collection",
+      "name": "工具收藏集",
+      "description": "个人工具收藏管理页面，分类展示各类实用工具（下载/AI/成人娱乐/信息获取/网络工具/变现赚钱），含点评和相关推荐",
+      "date": "2026-07",
+      "tags": ["收藏", "工具", "导航", "分类"],
+      "category": "tool",
+      "type": "folder",
+      "path": "/tool-collection",
+      "entry": "index.html",
+      "github": "https://github.com/yun-ai-base/tool-collection",
+      "homepage": "https://yun-ai-base.github.io/tool-collection/"
+    },
+    {
+      "id": "cosmic-discussion",
+      "name": "宇宙大爆炸 AI 对话",
+      "description": "AI终端深度对话 — 宇宙大爆炸主题，AI 驱动的交互式科普与哲学讨论",
+      "date": "2026-07",
+      "tags": ["AI对话", "宇宙", "科普", "终端"],
+      "category": "ai-agent",
+      "type": "folder",
+      "path": "/代码文件/cosmic-discussion",
+      "entry": "index.html",
+      "github": "https://github.com/yun-ai-base/cosmic-discussion",
+      "homepage": "https://yun-ai-base.github.io/cosmic-discussion/"
     }
   ]
 };
