@@ -1,4 +1,4 @@
-const PROJECTS_DATA = {
+﻿const PROJECTS_DATA = {
   "meta": {
     "title": "项目总览 · Project Atlas",
     "description": "All projects developed by yun",
@@ -396,6 +396,20 @@ const PROJECTS_DATA = {
       "entry": "index.html",
       "github": "https://github.com/yun-ai-base/cosmic-discussion",
       "homepage": "https://yun-ai-base.github.io/cosmic-discussion/"
+    },
+    {
+      "id": "population-report",
+      "name": "中国人口变局综合分析报告",
+      "description": "中国人口变局多维数据综合分析报告，覆盖人口结构/婚姻家庭/经济产业/教育/房地产/中日韩比较，含15个交互图表及教育培训行业转型专题",
+      "date": "2026-07",
+      "tags": ["人口", "数据可视化", "分析报告", "Chart.js"],
+      "category": "visualization",
+      "type": "folder",
+      "path": "/population-report",
+      "entry": "index.html",
+      "github": "https://github.com/yun-ai-base/population-report",
+      "homepage": "https://yun-ai-base.github.io/population-report/"
     }
   ]
 };
+
